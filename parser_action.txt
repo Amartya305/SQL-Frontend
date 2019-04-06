@@ -1,0 +1,261 @@
+=======================================================
+ 		STACK  		  INPUT   	      ACTION
+=======================================================
+		S$                f			S -> TV
+		TV$               f			T -> UW
+		UWV$              f			U -> fibBCcd
+		fibBCcdWV$        f			match f
+		ibBCcdWV$         i			match i
+		bBCcdWV$          b			match b
+		BCcdWV$           i			B -> ijeZ
+		ijeZCcdWV$        i			match i
+		jeZCcdWV$         j			match j
+		eZCcdWV$          e			match e
+		ZCcdWV$           i			Z -> ijeZ
+		ijeZCcdWV$        i			match i
+		jeZCcdWV$         j			match j
+		eZCcdWV$          e			match e
+		ZCcdWV$           i			Z -> ijeZ
+		ijeZCcdWV$        i			match i
+		jeZCcdWV$         j			match j
+		eZCcdWV$          e			match e
+		ZCcdWV$           i			Z -> ijeZ
+		ijeZCcdWV$        i			match i
+		jeZCcdWV$         j			match j
+		eZCcdWV$          e			match e
+		ZCcdWV$           k			Z -> #
+		CcdWV$            k			C -> kbic
+		kbiccdWV$         k			match k
+		biccdWV$          b			match b
+		iccdWV$           i			match i
+		ccdWV$            c			match c
+		cdWV$             c			match c
+		dWV$              d			match d
+		WV$               g			W -> giEW
+		giEWV$            g			match g
+		iEWV$             i			match i
+		EWV$              b			E -> bFclbGcd
+		bFclbGcdWV$       b			match b
+		FclbGcdWV$        i			F -> iY
+		iYclbGcdWV$       i			match i
+		YclbGcdWV$        e			Y -> eiY
+		eiYclbGcdWV$      e			match e
+		iYclbGcdWV$       i			match i
+		YclbGcdWV$        e			Y -> eiY
+		eiYclbGcdWV$      e			match e
+		iYclbGcdWV$       i			match i
+		YclbGcdWV$        c			Y -> #
+		clbGcdWV$         c			match c
+		lbGcdWV$          l			match l
+		bGcdWV$           b			match b
+		GcdWV$            v			G -> HX
+		HXcdWV$           v			H -> v
+		vXcdWV$           v			match v
+		XcdWV$            e			X -> eHX
+		eHXcdWV$          e			match e
+		HXcdWV$           w			H -> w
+		wXcdWV$           w			match w
+		XcdWV$            e			X -> eHX
+		eHXcdWV$          e			match e
+		HXcdWV$           v			H -> v
+		vXcdWV$           v			match v
+		XcdWV$            c			X -> #
+		cdWV$             c			match c
+		dWV$              d			match d
+		WV$               g			W -> giEW
+		giEWV$            g			match g
+		iEWV$             i			match i
+		EWV$              l			E -> lbGcd
+		lbGcdWV$          l			match l
+		bGcdWV$           b			match b
+		GcdWV$            v			G -> HX
+		HXcdWV$           v			H -> v
+		vXcdWV$           v			match v
+		XcdWV$            e			X -> eHX
+		eHXcdWV$          e			match e
+		HXcdWV$           w			H -> w
+		wXcdWV$           w			match w
+		XcdWV$            e			X -> eHX
+		eHXcdWV$          e			match e
+		HXcdWV$           v			H -> v
+		vXcdWV$           v			match v
+		XcdWV$            c			X -> #
+		cdWV$             c			match c
+		dWV$              d			match d
+		WV$               g			W -> giEW
+		giEWV$            g			match g
+		iEWV$             i			match i
+		EWV$              b			E -> bFclbGcd
+		bFclbGcdWV$       b			match b
+		FclbGcdWV$        i			F -> iY
+		iYclbGcdWV$       i			match i
+		YclbGcdWV$        e			Y -> eiY
+		eiYclbGcdWV$      e			match e
+		iYclbGcdWV$       i			match i
+		YclbGcdWV$        e			Y -> eiY
+		eiYclbGcdWV$      e			match e
+		iYclbGcdWV$       i			match i
+		YclbGcdWV$        c			Y -> #
+		clbGcdWV$         c			match c
+		lbGcdWV$          l			match l
+		bGcdWV$           b			match b
+		GcdWV$            v			G -> HX
+		HXcdWV$           v			H -> v
+		vXcdWV$           v			match v
+		XcdWV$            e			X -> eHX
+		eHXcdWV$          e			match e
+		HXcdWV$           w			H -> w
+		wXcdWV$           w			match w
+		XcdWV$            e			X -> eHX
+		eHXcdWV$          e			match e
+		HXcdWV$           v			H -> v
+		vXcdWV$           v			match v
+		XcdWV$            c			X -> #
+		cdWV$             c			match c
+		dWV$              d			match d
+		WV$               g			W -> giEW
+		giEWV$            g			match g
+		iEWV$             i			match i
+		EWV$              l			E -> lbGcd
+		lbGcdWV$          l			match l
+		bGcdWV$           b			match b
+		GcdWV$            v			G -> HX
+		HXcdWV$           v			H -> v
+		vXcdWV$           v			match v
+		XcdWV$            e			X -> eHX
+		eHXcdWV$          e			match e
+		HXcdWV$           w			H -> w
+		wXcdWV$           w			match w
+		XcdWV$            e			X -> eHX
+		eHXcdWV$          e			match e
+		HXcdWV$           v			H -> v
+		vXcdWV$           v			match v
+		XcdWV$            c			X -> #
+		cdWV$             c			match c
+		dWV$              d			match d
+		WV$               g			W -> giEW
+		giEWV$            g			match g
+		iEWV$             i			match i
+		EWV$              b			E -> bFclbGcd
+		bFclbGcdWV$       b			match b
+		FclbGcdWV$        i			F -> iY
+		iYclbGcdWV$       i			match i
+		YclbGcdWV$        e			Y -> eiY
+		eiYclbGcdWV$      e			match e
+		iYclbGcdWV$       i			match i
+		YclbGcdWV$        e			Y -> eiY
+		eiYclbGcdWV$      e			match e
+		iYclbGcdWV$       i			match i
+		YclbGcdWV$        c			Y -> #
+		clbGcdWV$         c			match c
+		lbGcdWV$          l			match l
+		bGcdWV$           b			match b
+		GcdWV$            v			G -> HX
+		HXcdWV$           v			H -> v
+		vXcdWV$           v			match v
+		XcdWV$            e			X -> eHX
+		eHXcdWV$          e			match e
+		HXcdWV$           w			H -> w
+		wXcdWV$           w			match w
+		XcdWV$            e			X -> eHX
+		eHXcdWV$          e			match e
+		HXcdWV$           v			H -> v
+		vXcdWV$           v			match v
+		XcdWV$            c			X -> #
+		cdWV$             c			match c
+		dWV$              d			match d
+		WV$               h			W -> hFniJdW
+		hFniJdWV$         h			match h
+		FniJdWV$          i			F -> iY
+		iYniJdWV$         i			match i
+		YniJdWV$          n			Y -> #
+		niJdWV$           n			match n
+		iJdWV$            i			match i
+		JdWV$             m			J -> mK
+		mKdWV$            m			match m
+		KdWV$             i			K -> iL
+		iLdWV$            i			match i
+		LdWV$             p			L -> pH
+		pHdWV$            p			match p
+		HdWV$             v			H -> v
+		vdWV$             v			match v
+		dWV$              d			match d
+		WV$               h			W -> hFniJdW
+		hFniJdWV$         h			match h
+		FniJdWV$          i			F -> iY
+		iYniJdWV$         i			match i
+		YniJdWV$          e			Y -> eiY
+		eiYniJdWV$        e			match e
+		iYniJdWV$         i			match i
+		YniJdWV$          e			Y -> eiY
+		eiYniJdWV$        e			match e
+		iYniJdWV$         i			match i
+		YniJdWV$          n			Y -> #
+		niJdWV$           n			match n
+		iJdWV$            i			match i
+		JdWV$             m			J -> mK
+		mKdWV$            m			match m
+		KdWV$             i			K -> iL
+		iLdWV$            i			match i
+		LdWV$             s			L -> sHoH
+		sHoHdWV$          s			match s
+		HoHdWV$           v			H -> v
+		voHdWV$           v			match v
+		oHdWV$            o			match o
+		HdWV$             v			H -> v
+		vdWV$             v			match v
+		dWV$              d			match d
+		WV$               h			W -> hFniJdW
+		hFniJdWV$         h			match h
+		FniJdWV$          i			F -> iY
+		iYniJdWV$         i			match i
+		YniJdWV$          n			Y -> #
+		niJdWV$           n			match n
+		iJdWV$            i			match i
+		JdWV$             m			J -> mK
+		mKdWV$            m			match m
+		KdWV$             i			K -> iL
+		iLdWV$            i			match i
+		LdWV$             t			L -> tw
+		twdWV$            t			match t
+		wdWV$             w			match w
+		dWV$              d			match d
+		WV$               h			W -> hFniJdW
+		hFniJdWV$         h			match h
+		FniJdWV$          i			F -> iY
+		iYniJdWV$         i			match i
+		YniJdWV$          e			Y -> eiY
+		eiYniJdWV$        e			match e
+		iYniJdWV$         i			match i
+		YniJdWV$          e			Y -> eiY
+		eiYniJdWV$        e			match e
+		iYniJdWV$         i			match i
+		YniJdWV$          n			Y -> #
+		niJdWV$           n			match n
+		iJdWV$            i			match i
+		JdWV$             m			J -> mK
+		mKdWV$            m			match m
+		KdWV$             i			K -> iL
+		iLdWV$            i			match i
+		LdWV$             u			L -> ubGc
+		ubGcdWV$          u			match u
+		bGcdWV$           b			match b
+		GcdWV$            v			G -> HX
+		HXcdWV$           v			H -> v
+		vXcdWV$           v			match v
+		XcdWV$            e			X -> eHX
+		eHXcdWV$          e			match e
+		HXcdWV$           v			H -> v
+		vXcdWV$           v			match v
+		XcdWV$            e			X -> eHX
+		eHXcdWV$          e			match e
+		HXcdWV$           v			H -> v
+		vXcdWV$           v			match v
+		XcdWV$            c			X -> #
+		cdWV$             c			match c
+		dWV$              d			match d
+		WV$               a			W -> #
+		V$                a			V -> a
+		a$                a			match a
+		$                $			accept
+-------------------------------------------------------

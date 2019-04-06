@@ -1,0 +1,17 @@
+S=TV
+T=TU|U
+U=A|D|I
+V=a|#
+A=fibBCcd
+B=Bije|ije
+C=kbic
+D=giE
+E=bFclbGcd|lbGcd
+F=Fei|i
+G=GeH|H
+H=v|w
+I=hFniJd
+J=mK|#
+K=iL
+L=pH|qH|rH|sHoH|ubGc|tw
+end
