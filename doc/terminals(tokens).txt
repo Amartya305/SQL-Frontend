@@ -1,0 +1,26 @@
+/*terminals in the grammar */
+
+EOI = whitespace at end of input
+OPN_BKT = '('
+CLS_BKT = ')'
+SEMI = ';'
+COMMA = ','
+CREAT = 'CREATE TABLE'
+INSRT = ' INSERT INTO'
+SEL = 'SELECT FROM'
+ID = any valid identifier
+TYP = data types defined in SQL
+PK = 'PRIMARY KEY'
+VAL = 'VALUES'
+WHR = 'WHERE'
+FRM ='FROM'
+AND = 'AND'
+EQ = '='
+GRTR = '>'
+LSR ='<'
+BTWN = 'BETWEEN'
+LIKE ='LIKE'
+IN ='IN'
+NUM = integer 
+LIT = string literal 
+# = empty string

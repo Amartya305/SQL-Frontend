@@ -1,0 +1,43 @@
+/*terminal mappings*/
+EOI -> a
+OPN_BKT -> b
+CLS_BKT -> c
+SEMI -> ;
+COMMA -> ,
+CREAT -> f
+INSRT -> g
+SEL -> h
+ID -> i
+TYP -> j
+PK -> k
+VAL -> l 
+WHR	-> m
+FRM -> n
+AND -> o
+EQ -> p
+GRTR -> q
+LSR -> r
+BTWN -> s
+LIKE -> t
+IN -> u
+NUM -> v
+LIT -> w
+------------------------------
+/*non-terminal mappings*/
+S->S
+BLOCKS->T
+SQL_BLOCK->U
+EOF->V
+CREATE_BLOCK->A
+COLS->B
+PK_BLOCK->C
+INSERT_BLOCK->D
+INSERT_REM->E
+COLUMNS->F
+VALUES->G
+CONST->H
+SELECT_BLOCK->I
+CONDITIONS->J
+COND->K
+COND_REM->L
+-----------------------------
